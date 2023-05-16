@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/577c129fd7c6ee6a37c42b99/This-is-the-Milky-Way-from-Concordia-Camp--in-Pakistan-s-Karakoram-Range-/960x0.jpg?format=jpg&width=960');
+   
+}
+.srchcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+
