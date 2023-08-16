@@ -5,7 +5,7 @@ function CurrentWeather({current,zip,future,setFuture}){
     console.log(future)
 return(
     <><div className={styles.cardContainer}>
-        <Card sx={{ width: 500, textAlign: 'center', backgroundColor: 'transparent', border: 'none', borderColor: 'transparent' }}>
+        <Card sx={{ width: 500, textAlign: 'center', backgroundColor: 'transparent' }}>
             {current.length < 1 ? null : <div className={styles.info}>
                 <CardContent className={styles.container}>
                     <Typography sx={{ fontSize: 20, fontWeight: 'bold', color: 'white' }}>

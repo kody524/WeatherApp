@@ -14,9 +14,11 @@ function App() {
   return (
     <>
       <body className={styles.body}>
+      <div className={styles.mainTitle}>Weather</div>
         <div className={styles.srchcontainer}>
+          
           <TextField
-          sx={{backgroundColor:'white',borderRadius:5}}
+          sx={{backgroundColor:'white',borderRadius:5,borderColor:'transparent'}}
             className={styles.search}
             
             onChange={(e) => {

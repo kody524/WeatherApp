@@ -38,7 +38,7 @@ console.log(a)
                                             Low: {Math.floor(data.app_min_temp * 1.8 + 32)}
                                         </Typography>
                                         <Typography>
-                                            Precipitation:{data.precip}%
+                                            Precipitation:{(Math.floor(data.precip))}%
                                         </Typography>
                                     </CardContent>
 
